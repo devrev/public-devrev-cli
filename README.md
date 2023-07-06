@@ -8,9 +8,9 @@ Official website <a href="https://devrev.ai">DevRev</a>
 - linux amd64
 ### Version v0.3.2 <br>
 Download the brew formula devrev.rb<br>
-click here to download <a href="https://github.com/devrev/public-devrev-cli/releases/latest/download/devrev.rb">DevRev Formula</a> or run the below command
+click here to download <a href="https://github.com/devrev/cli/releases/latest/download/devrev.rb">DevRev Formula</a> or run the below command
 ```bash
-$  wget https://github.com/devrev/public-devrev-cli/releases/latest/download/devrev.rb
+$  wget https://github.com/devrev/cli/releases/latest/download/devrev.rb
 ```
 move to the downloaded directory and install the downloaded Homebrew formula devrev.rb using below brew command
 ```bash
@@ -18,7 +18,7 @@ $ brew install ./devrev.rb
 ``` 
 also run the below command to install the completions
 ```bash
-$ wget https://raw.githubusercontent.com/devrev/public-devrev-cli/main/install_completions.sh && sh install_completions.sh /opt/homebrew/bin/devrev
+$ wget https://raw.githubusercontent.com/devrev/cli/main/install_completions.sh && sh install_completions.sh /opt/homebrew/bin/devrev
 ``` 
 Note: <b>/opt/homebrew/bin/devrev</b> path may vary based on your homebrew installation
 ### Uninstall
@@ -30,8 +30,8 @@ $ brew uninstall devrev
 - linux arm64
 ### Version v0.3.2 <br>
 Download the debian package<br>
-click here to download <a href="https://github.com/devrev/public-devrev-cli/releases/latest/download/devrev_0.3.2-linux_amd64.deb">Linux AMD64</a> 
-| <a href="https://github.com/devrev/public-devrev-cli/releases/latest/download/devrev_0.3.2-linux_arm64.deb">Linux ARM64</a> <br>
+click here to download <a href="https://github.com/devrev/cli/releases/latest/download/devrev_0.3.2-linux_amd64.deb">Linux AMD64</a> 
+| <a href="https://github.com/devrev/cli/releases/latest/download/devrev_0.3.2-linux_arm64.deb">Linux ARM64</a> <br>
 
 Note: move to the downloaded directory and install the debian package using below dpkg command
 ```bash
